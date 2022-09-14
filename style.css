@@ -1,0 +1,30 @@
+html {
+
+  background-color: #000406;
+
+}
+
+h1, h4 {
+
+  font-family: 'Oswald', sans-serif;
+
+  color: #ffdd59;
+
+  text-align: center;
+
+  
+
+}
+
+h1 {
+
+  font-size: 50px;
+
+}
+
+#demo {
+
+  margin: 250px 20px;
+
+}
+
