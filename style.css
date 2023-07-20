@@ -1,0 +1,52 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+header {
+
+}
+h1, h6, span1 {
+  text-align: center;
+}
+footer {
+  margin-top: 100px;
+}
+h1, span1 {
+  font-family: "Noto Sans JP";
+}
+h6 {
+  font-family: "source code pro";
+}
+
+b {
+  left: 25%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 16px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+span1 {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+  -webkit-animation: move 5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 1s;
+  }
+  
+  @keyframes move {
+  0%  { top: 0px; }
+  20% { top: -20px; }
+  40% { top: -40px; }
+  60% { top: -60px; }
+  80% { top: -80px; }
+ }
