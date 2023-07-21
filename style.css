@@ -14,29 +14,33 @@ body {
   color: white;
 }
 
-
-h1 {
-  padding-top: 50px;
+#gallery {
+  margin: 0% 10%;
+  width: auto;
+  height: 100px;
+  background-color: black;
 }
 
-h1, h6, span1 {
+h1 {
+  font-size: 50px;
+  font-family: 'Kanit', monospace;
+  padding: 50px 0px;
+}
+
+h1, h6 {
   text-align: center;
 }
 
 footer {
-  padding-top: 1000px;
+  padding-top: 100px;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
 }
 
-h1, span1 {
-  font-family: "Noto Sans JP";
-}
-
 h6 {
-  font-family: "source code pro";
+  font-family: 'Source Code Pro', monospace;
   color: white;
   font-size: 16px;
   text-align: center;
@@ -47,35 +51,3 @@ h6 {
   margin-top: 100px;
   margin-left: calc(50% - 150px);
 }
-/* 
-b {
-  left: 25%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  height: 16px;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-}
-
-span1 {
-  text-align: center;
-  display: inline-block;
-  color: white;
-  position: relative;
-  white-space: nowrap;
-  top: 0;
-  left: 0;
-  -webkit-animation: move 5s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-delay: 1s;
-  }
-  
-  @keyframes move {
-  0%  { top: 0px; }
-  20% { top: -20px; }
-  40% { top: -40px; }
-  60% { top: -60px; }
-  80% { top: -80px; }
- } */
