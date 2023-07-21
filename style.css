@@ -15,7 +15,14 @@ body {
 }
 
 #gallery {
-  margin: 0% 10%;
+  margin: 0% 8%;
+  text-align: center;
+  justify-content: space-between;
+}
+
+img {
+  width: 400px;
+  padding: 10px;
 }
 
 h1 {
