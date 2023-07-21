@@ -17,11 +17,13 @@ body {
 #gallery {
   margin: 0% 8%;
   text-align: center;
-  justify-content: space-between;
+  /* display: flex;
+  flex-wrap: wrap; */
 }
 
 img {
   width: 400px;
+  height: auto;
   padding: 10px;
 }
 
