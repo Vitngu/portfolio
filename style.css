@@ -84,3 +84,18 @@ h6 {
     width: 92%;
   }
 }
+
+
+#gallery {animation: growth ease-in-out 0.5s;}
+
+@keyframes growth {
+  from {
+    opacity: 0%;
+    margin-top: 99px;
+  }
+
+  to {
+    opacity: 100%;
+    margin-top: 0px;
+  }
+}
