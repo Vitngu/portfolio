@@ -86,7 +86,7 @@ h6 {
 }
 
 
-#gallery {animation: growth ease-in-out 0.5s;}
+body {animation: growth ease-in-out 0.5s;}
 
 @keyframes growth {
   from {

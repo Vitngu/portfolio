@@ -1,0 +1,1 @@
+console.log("Cao Hai Dang's photography portfolio site");
