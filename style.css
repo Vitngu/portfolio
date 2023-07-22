@@ -31,6 +31,7 @@ img {
   display: flex;
   align-content: flex-start;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 h1 {
@@ -58,8 +59,28 @@ h6 {
   text-align: center;
   background-color: black;
   width: 300px;
-  /* position: absolute; */
   letter-spacing: 3px;
   margin: 100px 0px;
   margin-left: calc(50% - 150px);
+}
+
+/* Tablet responsive */
+@media (max-width: 1023px) {
+
+  img {
+    width: 70%;
+  }
+
+  #bottom-gallery {
+    display: block;
+  }
+}
+
+
+/* Mobile responsive */
+@media (max-width: 740px) {
+
+  img {
+    width: 92%;
+  }
 }
