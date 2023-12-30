@@ -27,6 +27,11 @@ img {
   padding: 10px;
 }
 
+#pano {
+  width: 1209px;
+  /* padding: 10px; */
+}
+
 #bottom-gallery {
   display: flex;
   align-content: flex-start;
@@ -71,6 +76,10 @@ h6 {
     width: 70%;
   }
 
+  #pano {
+    width: 70%;
+  }
+
   #bottom-gallery {
     display: block;
   }
@@ -81,6 +90,10 @@ h6 {
 @media (max-width: 740px) {
 
   img {
+    width: 92%;
+  }
+
+  #pano {
     width: 92%;
   }
 }
