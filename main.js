@@ -9,10 +9,10 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   document.addEventListener('DOMContentLoaded', function() {
-    const images = document.querySelectorAll('img:not([alt])'); // Chỉ chọn ảnh chưa có alt
-    const defaultAltText = "Mô tả hình ảnh"; // Nội dung alt mặc định
+    const images = document.querySelectorAll('img:not([alt])');
+    const AltText = "© Cao Hải Đăng";
   
     images.forEach(image => {
-      image.setAttribute('alt', "© Cao Hải Đăng");
+      image.setAttribute('alt', AltText);
     });
   });
